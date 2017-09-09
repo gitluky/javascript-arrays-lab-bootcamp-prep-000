@@ -18,7 +18,11 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift(name)
 }
 
+<<<<<<< HEAD
 function appendKitten(name){
+=======
+function appenedKitten(name){
+>>>>>>> f749b30609361876d8eff43d20c3678a5f379bea
   var newKittens = [...kittens, name]
   return newKittens
 }
